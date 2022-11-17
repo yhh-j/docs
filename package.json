@@ -1,0 +1,25 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "dome01",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yhh-j/docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yhh-j/docs/issues"
+  },
+  "homepage": "https://github.com/yhh-j/docs#readme",
+  "dependencies": {
+    "vuepress": "^1.9.7"
+  },
+  "devDependencies": {}
+}
