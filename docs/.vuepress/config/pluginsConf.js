@@ -1,7 +1,5 @@
 const moment = require('moment');
 module.exports = {
-    plugins: {
-
         '@vuepress/last-updated': {
             transformer: (timestamp, lang) => {
                 moment.locale("zh-cn")
@@ -38,8 +36,5 @@ module.exports = {
         '@vuepress/google-analytics': {
 
             'ga': 'G-N507NZDCS5' // UA-00000000-0
-        },
-
-
-    },
+        }
 }
