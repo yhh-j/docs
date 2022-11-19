@@ -1,12 +1,12 @@
 const moment = require('moment');
+moment.locale("zh-cn");
+
 module.exports = {
         '@vuepress/last-updated': {
             transformer: (timestamp, lang) => {
-                moment.locale("zh-cn")
                 return moment(timestamp).format("LLLL")
             }
         },
-
 
         '@vuepress/pwa': {
             serviceWorker: true,
@@ -15,7 +15,6 @@ module.exports = {
                 buttonText: "刷新"
             }
         },
-
 
         '@vssue/vuepress-plugin-vssue': {
             // 设置 `platform` 而不是 `api`
@@ -29,9 +28,7 @@ module.exports = {
             // autoCreateIssue: true,
         },
 
-
         '@vuepress/back-to-top': true,
-
 
         '@vuepress/google-analytics': {
 

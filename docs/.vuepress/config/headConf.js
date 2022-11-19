@@ -1,4 +1,4 @@
-module.export = [
+module.exports = [
         ['meta', { name: 'author', content: 'yhh' }],
         ['meta', { name: 'keywords', content: 'vue初学' }],
         ['link', { rel: 'manifest', href: '/manifest.json' }],

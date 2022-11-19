@@ -5,8 +5,8 @@ const sidebarConf = require('./config/sidebarConf');
 module.exports = {
     title: "YHH",
     description: "yhh笔记",
-    head:headConf,
-    plugins:pluginsConf,
+    head: headConf,
+    plugins: pluginsConf,
     themeConfig: {
         lastUpdated: '更新时间',
         logo: '/assets/img/hero.png',
