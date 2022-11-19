@@ -1,5 +1,8 @@
 const moment = require('moment');
+const secret = require("./secret")
+
 moment.locale("zh-cn");
+
 
 module.exports = {
         '@vuepress/last-updated': {
@@ -23,8 +26,8 @@ module.exports = {
             // 其他的 Vssue 配置
             owner: 'yhh-j',
             repo: 'docs',
-            clientId: '22eb974a5b2060987158',
-            clientSecret: 'fe4e9e28aa6c6af438a05383a7be8e01be22e59e',
+            clientId: secret.clientId,
+            clientSecret: secret.clientSecret,
             // autoCreateIssue: true,
         },
 
@@ -32,6 +35,6 @@ module.exports = {
 
         '@vuepress/google-analytics': {
 
-            'ga': 'G-N507NZDCS5' // UA-00000000-0
+            'ga': secret.ga // UA-00000000-0
         }
 }
