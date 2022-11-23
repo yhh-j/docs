@@ -1,6 +1,6 @@
 module.exports = [
-        ['meta', { name: 'author', content: 'yhh' }],
-        ['meta', { name: 'keywords', content: 'vue初学' }],
+        ['meta', { name: 'author', content: 'YHH' }],
+        ['meta', { name: 'keywords', content: 'YHH的笔记' }],
         ['link', { rel: 'manifest', href: '/manifest.json' }],
         ['meta', { name: 'theme-color', content: '#3eaf7c' }],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],

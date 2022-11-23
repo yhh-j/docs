@@ -1,21 +1,8 @@
 module.exports = [
-    { text: 'Home', link: '/' },
-    { text: 'Guide', link: '/about' },
-    {
-        text: 'Languages',
+    { text: '首页', link: '/' },
+    {text: '前端',
         items: [
-            {
-                text: 'Group1', items: [
-                    { text: 'Home', link: '/' },
-                    { text: 'Guide', link: '/about' },]
-            },
-            {
-                text: 'Group2', items: [
-                    { text: 'Home', link: '/' },
-                    { text: 'Guide', link: '/about' },
-                ]
-            }
+          { text: 'JavaScript', link: '/frontend/javascript/' },
         ]
-    },
-    { text: 'External', link: 'https://google.com' },
+    }
 ]

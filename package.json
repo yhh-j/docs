@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "deploy": "bash deploy.sh"
+    "docs:build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
@@ -29,6 +28,7 @@
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.9.7",
     "@vuepress/plugin-google-analytics": "^1.9.7",
-    "@vuepress/plugin-pwa": "^1.9.7"
+    "@vuepress/plugin-pwa": "^1.9.7",
+    "vuepress-plugin-auto-sidebar": "^2.3.2"
   }
 }
