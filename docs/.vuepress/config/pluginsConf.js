@@ -7,7 +7,7 @@ moment.locale("zh-cn");
 module.exports = {
     '@vuepress/last-updated': {
         transformer: (timestamp, lang) => {
-            return moment(timestamp).format("LLLL")
+            return moment(timestamp).format("LLL")
         }
     },
 
@@ -36,5 +36,7 @@ module.exports = {
     '@vuepress/google-analytics': {
 
         'ga': secret.ga // UA-00000000-0
+    },
+    "vuepress-plugin-auto-sidebar": {
     }
 }

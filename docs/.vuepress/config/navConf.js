@@ -1,8 +1,9 @@
 module.exports = [
     { text: '首页', link: '/' },
-    {text: '前端',
+    {
+        text: '前端',
         items: [
-          { text: 'JavaScript', link: '/frontend/javascript/' },
+            { text: 'JavaScript', link: '/frontend/javascript/' },
         ]
     }
 ]
