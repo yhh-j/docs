@@ -1,7 +1,7 @@
 const headConf = require('./config/headConf');
 const pluginsConf = require('./config/pluginsConf');
 const navConf = require('./config/navConf');
-const sidebarConf = require('./config/sidebarConf');
+// const sidebarConf = require('./config/sidebarConf');
 module.exports = {
     lang: 'zh-CN',
     title: "YHH",
@@ -21,6 +21,6 @@ module.exports = {
         // 默认为 "Edit this page"
         editLinkText: '编辑文档',
         nav: navConf,
-        sidebar: sidebarConf,
+        // sidebar: sidebarConf,
     }
 }
