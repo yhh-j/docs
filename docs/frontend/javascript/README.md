@@ -1,3 +1,3 @@
-## Javascritp
+## JavaScritp
 
 关于Javascript
