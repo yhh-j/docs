@@ -1,13 +1,11 @@
 ---
 sidebarDepth: 2
 ---
+# JavaScript 标准内置对象
 
-# 数组
-
-## 方法
+## Array
 
 ### Array.prototype.at()
-
 `at()` 方法接**收一个整数值并返回该索引对应的元素**，允许正数和负数。负整数从数组中的最后一个元素开始倒数。如果找不到指定的索引，则返回 `undefined`。
 
 >at() 方法是通用的。其仅期望 this 具有 length 属性和以整数为键的属性。
